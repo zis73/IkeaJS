@@ -15,9 +15,9 @@ const openMenu = () => {
   overlay.classList.add('active');
 },
   closeMenu = () => {
-    closeSubMenu();
     catalog.classList.remove('open');
     overlay.classList.remove('active');
+    closeSubMenu();
   },
   openSubMenu = (event) => {
     event.preventDefault();

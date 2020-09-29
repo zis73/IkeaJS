@@ -1,5 +1,3 @@
-'use srict';
-
 const generateHeader = () => {
   const header = `
   <header>
