@@ -1,13 +1,16 @@
-import { catalog } from './catalog.js';
-import generateHeader from './generateHeader.js';
-import generateFooter from './generateFooter.js';
-import generateCatalog from './generateCatalog.js';
-import generateSubCatalog from './generateSubCatalog.js';
-import {loadData} from './loadData.js';
+// eslint-disable-next-line strict
+'use strict';
+import generateHeader from './Modules/generateHeader.js';
+import generateFooter from './Modules/generateFooter.js';
+import generateCatalog from './Modules/generateCatalog.js';
+import generateGoodsPage from './Modules/generateGoodsPage.js';
+import generateCard from './Modules/generateCard.js';
+import generateCart from './Modules/generateCart.js';
+
 
 generateHeader();
 generateFooter();
 generateCatalog();
-generateSubCatalog();
-catalog();
-loadData();
+generateGoodsPage();
+generateCard();
+generateCart();
